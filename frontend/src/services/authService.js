@@ -1,7 +1,7 @@
 // src/services/authService.js
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3333';  
+const API_URL = 'http://localhost:8080';  
 
 // Serviço de Registro
 export const register = async (email, password) => {
